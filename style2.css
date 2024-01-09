@@ -1,0 +1,37 @@
+*{
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: brown;
+}
+a{
+    color: aqua;
+}
+.logo{
+    font-size: 40px;
+    margin-left: 30px;
+}
+.logoa{
+    color: blueviolet;
+}
+nav ul {
+    float: right;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 30px;
+    font-size: 20p;
+}
+nav ul li a{
+    color: black;
+    padding: 8px;
+}
+nav ul li a:hover{
+    padding: 8px;
+    border: rading 5px;
+    background-color: blue;
+    color: brown;
+}

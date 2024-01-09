@@ -1,0 +1,2 @@
+(()=>{var e={};e.g=function(){if("object"==typeof globalThis)return globalThis;try{return this||new Function("return this")()}catch(e){if("object"==typeof window)return window}}(),("undefined"!=typeof window?window:void 0!==e.g?e.g:"undefined"!=typeof self?self:{}).SENTRY_RELEASE={id:"37c936e1e1372ce68eec27a8653bcebac06d7e55"}})();
+//# sourceMappingURL=ytube_slide.de576411b7b945b8c94a.js.map

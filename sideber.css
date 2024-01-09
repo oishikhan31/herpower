@@ -1,0 +1,89 @@
+*{
+    list-style: none;
+}
+.float{
+    float:right;
+}
+.floatleft{
+    float: left;
+}
+.padding{
+    padding-right: 32px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+i{
+    color: blue;
+    margin-right: 10px;
+}
+.nav{
+    height: 70px;
+    background-color: black;
+}
+.nav{
+    height: 70px;
+    background-color: black;
+}
+.sbelement{
+    padding: 20px;
+    width: 170px;
+    background-color: brown;
+    margin-left: -300px;
+    transition: 1s;
+}
+.sbelement li{
+    padding-top:15px;
+    color: aqua;
+}
+#navbtn{
+    display: none;
+}
+ 
+
+#navbtn:checked ~ .sbelement{
+    margin-left: 0px;
+    transition: 1s;
+}
+label span{
+    color: aliceblue;
+}
+label {
+    cursor: pointer;
+    border-right:1px solid black;
+    display:black;
+    height:64px;
+    width: 64px;
+    position: relative;
+}
+label span{
+    border-radius: 15%;
+    height: 3px;
+    width:32px ;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    margin-left: 15px;
+}
+label span::before{
+    border-radius: 15%;
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    top: 400%;
+}
+label span::after{
+    border-radius: 15%;
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    top: -400%;
+}

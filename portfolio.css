@@ -1,0 +1,19 @@
+*{
+    text-decoration: none;
+    list-style: none;
+}
+.hero-title{
+    margin-top: 150px;
+}
+.hero-border{
+    border: 3px solid brown;
+}
+.seemore{
+    color: blue;
+    padding: 3px;
+}
+.seemore:hover{
+    text-emphasis: none;
+    color: black;
+    background-color: aqua;
+}

@@ -1,0 +1,13 @@
+.flex-container{
+    height: 1000px;
+font-size: 40px;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+flex: wrap;
+align-content: flex-end;
+}
+.iteml{
+    display: flex;
+    align-items: center;
+}
